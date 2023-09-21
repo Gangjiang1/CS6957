@@ -324,7 +324,6 @@ word_analogy_test("happy", "joyful", "sad", word_embeddings)
 word_analogy_test("girl", "woman", "boy", word_embeddings)
 
 ### eval embs
-!pip install gensim
 import argparse
 from gensim.models import KeyedVectors
 from gensim.test.utils import datapath
